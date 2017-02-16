@@ -1,0 +1,145 @@
+
+e1348790@B1153-G98PFX1 MINGW64 /c/veille/ex6 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    ../scroll_02_etudiant/commandegit.txt
+        deleted:    ../scroll_02_etudiant/index.htm
+        deleted:    ../scroll_02_etudiant/js/transformations.js
+        deleted:    ../scroll_02_etudiant/less/index.html
+        deleted:    ../scroll_02_etudiant/less/style.css
+        deleted:    ../scroll_02_etudiant/less/style.less
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../Pic_ex5.7z
+        ../Pic_ex5/
+        ../cour3/
+        ./
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+e1348790@B1153-G98PFX1 MINGW64 /c/veille/ex6 (master)
+$ git add .
+
+e1348790@B1153-G98PFX1 MINGW64 /c/veille/ex6 (master)
+$ git commit -m "ex6"
+[master 971a29d] ex6
+ 10 files changed, 781 insertions(+)
+ create mode 100644 ex6/img/bg.svg
+ create mode 100644 ex6/img/grosseroche.svg
+ create mode 100644 ex6/img/logo.svg
+ create mode 100644 ex6/img/lol.svg
+ create mode 100644 ex6/img/rock.svg
+ create mode 100644 ex6/img/rock2.svg
+ create mode 100644 ex6/index.html
+ create mode 100644 ex6/less/style.less
+ create mode 100644 ex6/reset.css
+ create mode 100644 ex6/style.css
+
+e1348790@B1153-G98PFX1 MINGW64 /c/veille/ex6 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    ../scroll_02_etudiant/commandegit.txt
+        deleted:    ../scroll_02_etudiant/index.htm
+        deleted:    ../scroll_02_etudiant/js/transformations.js
+        deleted:    ../scroll_02_etudiant/less/index.html
+        deleted:    ../scroll_02_etudiant/less/style.css
+        deleted:    ../scroll_02_etudiant/less/style.less
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../Pic_ex5.7z
+        ../Pic_ex5/
+        ../cour3/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+e1348790@B1153-G98PFX1 MINGW64 /c/veille/ex6 (master)
+$ git add .
+
+e1348790@B1153-G98PFX1 MINGW64 /c/veille/ex6 (master)
+$ git commit -m "ex6"
+On branch master
+Changes not staged for commit:
+        deleted:    ../scroll_02_etudiant/commandegit.txt
+        deleted:    ../scroll_02_etudiant/index.htm
+        deleted:    ../scroll_02_etudiant/js/transformations.js
+        deleted:    ../scroll_02_etudiant/less/index.html
+        deleted:    ../scroll_02_etudiant/less/style.css
+        deleted:    ../scroll_02_etudiant/less/style.less
+
+Untracked files:
+        ../Pic_ex5.7z
+        ../Pic_ex5/
+        ../cour3/
+
+no changes added to commit
+
+e1348790@B1153-G98PFX1 MINGW64 /c/veille/ex6 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    ../scroll_02_etudiant/commandegit.txt
+        deleted:    ../scroll_02_etudiant/index.htm
+        deleted:    ../scroll_02_etudiant/js/transformations.js
+        deleted:    ../scroll_02_etudiant/less/index.html
+        deleted:    ../scroll_02_etudiant/less/style.css
+        deleted:    ../scroll_02_etudiant/less/style.less
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../Pic_ex5.7z
+        ../Pic_ex5/
+        ../cour3/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+e1348790@B1153-G98PFX1 MINGW64 /c/veille/ex6 (master)
+$ git branch
+* master
+
+e1348790@B1153-G98PFX1 MINGW64 /c/veille/ex6 (master)
+$ git branch
+* master
+
+e1348790@B1153-G98PFX1 MINGW64 /c/veille/ex6 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+e1348790@B1153-G98PFX1 MINGW64 /c/veille/ex6 (master)
+$ git commit -m "ex6"
+On branch master
+nothing to commit, working tree clean
+
+e1348790@B1153-G98PFX1 MINGW64 /c/veille/ex6 (master)
+$ git remote add origin https://github.com/B-ko/ex6.git
+fatal: remote origin already exists.
+
+e1348790@B1153-G98PFX1 MINGW64 /c/veille/ex6 (master)
+$ git push https://github.com/B-ko/ex6.git master
+Counting objects: 33, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (33/33), 1.24 MiB | 1.12 MiB/s, done.
+Total 33 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/B-ko/ex6.git
+ * [new branch]      master -> master
+
+e1348790@B1153-G98PFX1 MINGW64 /c/veille/ex6 (master)
+$
